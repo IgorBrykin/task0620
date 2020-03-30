@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
 3. Текст выведенный на экран должен начинаться с «The max is».
 4. Текст выведенный на экран должен заканчиваться максимумом из 2х введенных чисел.
 */
-public class Ternar {
+public class Task0611 {
     public static int max = 100;
 
     public static void main(String[] args) throws IOException {
