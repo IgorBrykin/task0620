@@ -11,7 +11,7 @@ public class Task0702 {
             arr[i] = br.readLine();
         }
         for (int i = arr.length; i > 0; i--) {
-            System.out.println(arr[i-1]);
+            System.out.println(arr[i-1]); // Вывод массива в обратном порядке
         }
     }
 }
