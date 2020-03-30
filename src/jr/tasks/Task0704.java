@@ -11,7 +11,7 @@ public class Task0704 {
             arr[i] = Integer.parseInt(br.readLine());
         }
         for (int i = arr.length; i > 0; i--) {
-            System.out.println(arr[i-1]);   // переворот масссива
+            System.out.println(arr[i-1]);       // переворот масссива
         }
     }
 }
