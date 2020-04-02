@@ -21,6 +21,7 @@ public class ArraySee {
         for (int i = 0; i < list.length ; i++) { // Это вывод на экран с начала до конца
             System.out.print(list[i]);
         }
+        System.out.println();
         for (int i = 0; i < list.length; i++) { // Это вывод на экран с конца в начало
             int j = list.length - i - 1;
             System.out.print(list[j]);
