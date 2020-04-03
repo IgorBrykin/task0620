@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 
 public class ArrayListGenerics {
@@ -14,11 +13,11 @@ public class ArrayListGenerics {
         addIntegerEven();// То же, чётные числа добавляются в конец списка, нечётные — в начало.
         delForFive(); // Удаление всех чисел больше 5:
         separation();   // Разделение массива на два — чётных и нечётных чисел
-        megner(); // Слияние списков.
+        merger(); // Слияние списков.
 
     }
 
-    private static void megner() {
+    private static void merger() {
         ArrayList<Integer> list1 = new ArrayList<Integer>();   //создание списка
         Collections.addAll(list1, 1, 5, 6, 11, 3, 15, 7, 8);   //заполнение списка
 
@@ -100,7 +99,7 @@ public class ArrayListGenerics {
 
         while (true) {
             String s = reader.readLine();
-            if (s.isEmpty()) break;
+            if (s.isEmpty()) break; // Проверяет, что строка == пустая строка
             list.add(Integer.parseInt(s));
         }
     }
