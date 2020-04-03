@@ -17,14 +17,14 @@ public class Task0712 {
         for (int i = 1; i < list.size(); i++) { // Поиск минимума и максимума
             if (list.get(max).length() < list.get(i).length()) {
                 max = i;
-            if (list.get(min).length() > list.get(i).length()) {
-                min = i;
-            }       //запись единицы
+                if (list.get(min).length() > list.get(i).length()) {
+                    min = i;
+                }       //запись единицы
+            }
+            if (max < min) {    //булево
+                System.out.println(list.get(max));
+            } else
+                System.out.println(list.get(min));
         }
-        if (max < min) {    //булево
-            System.out.println(list.get(max));
-        } else
-            System.out.println(list.get(min));
     }
-}
 }
