@@ -16,14 +16,14 @@ public class Task0713 {
             arr.add(Integer.parseInt(s));
         }
         for (int i = 0; i < arr.size(); i++) {
-            if (arr.get(i) % 2 == 0 && arr.get(i) % 3 == 0){
+            if (arr.get(i) % 2 == 0 && arr.get(i) % 3 == 0) {
                 two.add(arr.get(i));    //Запись элементов в массив arr в two
                 three.add(arr.get(i));
-            } else if (arr.get(i) % 3 == 0){
+            } else if (arr.get(i) % 3 == 0) {
                 three.add(arr.get(i));
-            } else if (arr.get(i) % 2 == 0 ){
+            } else if (arr.get(i) % 2 == 0) {
                 two.add(arr.get(i));
-            }else {
+            } else {
                 one.add(arr.get(i));
             }
         }
