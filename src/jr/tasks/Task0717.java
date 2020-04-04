@@ -41,9 +41,9 @@ public class Task0717 {
     }
 
     public static ArrayList<String> doubleValues(ArrayList<String> list) {
-        for (int i = 0; i < list.size(); i += 2) { // i+=2 перепрыгивает
+        for (int i = 0; i < list.size(); i +=2) { // i+=2 перепрыгивает
             list.add(i, list.get(i));
-            // i++; // итерация ++ второй вариант
+           // i++; // итерация ++ второй вариант i++
         }
         return list;
     }
