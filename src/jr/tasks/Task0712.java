@@ -36,7 +36,7 @@ public class Task0712 {
                 max = i;
                 if (list.get(min).length() > list.get(i).length()) {
                     min = i;
-                }       //запись единицы
+                }
             }
             if (max < min) {    //булево
                 System.out.println(list.get(max));
