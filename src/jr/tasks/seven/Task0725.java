@@ -1,4 +1,4 @@
-package jr.tasks;
+package jr.tasks.seven;
 
 /*
 Переставь один модификатор static
