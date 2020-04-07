@@ -1,4 +1,4 @@
-package jr.tasks;
+package jr.tasks.six;
 
 import java.io.BufferedReader;
 import java.io.IOException;
