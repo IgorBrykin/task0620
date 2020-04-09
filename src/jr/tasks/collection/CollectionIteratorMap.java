@@ -1,4 +1,4 @@
-package jr.tasks.array;
+package jr.tasks.collection;
 
 import java.util.HashMap;
 import java.util.Iterator;
