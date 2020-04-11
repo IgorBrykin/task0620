@@ -9,10 +9,10 @@ public class DateCaurrentToday {
     {
         Date currentTime = new Date();
         int hours = currentTime.getHours();
-        int mins = currentTime.getMinutes();
+        int minutes = currentTime.getMinutes();
         int secs = currentTime.getSeconds();
 
-        System.out.println("Time from midnight " + hours + ":" + mins + ":" + secs);
+        System.out.println("Time from midnight " + hours + ":" + minutes + ":" + secs);
     }
 
 }
