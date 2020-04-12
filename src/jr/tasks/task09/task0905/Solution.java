@@ -1,4 +1,4 @@
-package jr.tasks.nine.task09.task0905;
+package jr.tasks.task09.task0905;
 
 /* 
 Там, в синих глубинах стек-трейса…

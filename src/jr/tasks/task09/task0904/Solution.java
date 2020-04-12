@@ -1,4 +1,4 @@
-package jr.tasks.nine.task09.task0904;
+package jr.tasks.task09.task0904;
 
 /* 
 Стек-трейс длиной 10 вызовов

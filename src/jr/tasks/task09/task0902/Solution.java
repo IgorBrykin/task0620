@@ -1,4 +1,4 @@
-package jr.tasks.nine.task09.task0902;
+package jr.tasks.task09.task0902;
 
 /* 
 И снова StackTrace

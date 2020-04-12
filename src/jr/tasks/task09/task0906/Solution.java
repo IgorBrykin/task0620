@@ -1,4 +1,4 @@
-package jr.tasks.nine.task09.task0906;
+package jr.tasks.task09.task0906;
 
 /* 
 Логирование стек-трейса
